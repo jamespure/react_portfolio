@@ -1,0 +1,9 @@
+.menuItems {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menuItems li a {
+  color: #03a688;
+}
