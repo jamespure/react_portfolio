@@ -1,10 +1,11 @@
 import React from "react";
-import "./HeaderStyles.css";
+import classes from "./headerStyles.module.css";
 import NavBar from "./NavBar/NavBar";
+
 const Header = () => {
   return (
-    <header>
-      <NavBar />
+    <header className={`${classes.header}`}>
+      <NavBar/>
     </header>
   );
 };
