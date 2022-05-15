@@ -1,0 +1,142 @@
+:focus-visible {
+  outline: none;
+}
+iframe {
+  margin-top: 30px;
+}
+.btn {
+  float: left;
+  padding: 0px;
+}
+.send-btn {
+  border: 1px solid #00b074;
+  width: 199.99px;
+  height: 50px;
+  background-color: transparent;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  color: #00b074;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 0;
+  transition-duration: 0.3s;
+  transition: all 0.5s ease;
+  vertical-align: middle;
+}
+.send-btn:hover {
+  background-color: #00af73;
+  color: #fff;
+}
+
+.f-left {
+  color: #fff;
+  line-height: 14px;
+}
+
+.F-contact {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: left;
+  position: relative;
+}
+
+.F-contact:after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  width: 50px;
+  left: 7px;
+  margin: 0 auto;
+  border-bottom: 2px solid #03a696;
+}
+
+.f-text {
+  font-size: 39px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.f-icon {
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #131416;
+  padding-bottom: 80px;
+}
+
+.f-left {
+  color: #fff;
+  line-height: 14px;
+}
+
+.f-content {
+  text-align: left;
+  position: relative;
+}
+
+.f-icon i {
+  background: #03a696;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  padding: 10px;
+  display: inline-flex;
+}
+
+.f-icon:hover i {
+  background-color: #000;
+}
+
+.f-icon span {
+  color: #f0f0f0;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.f-end {
+  text-align: end;
+}
+.form-control:focus {
+  color: #fff;
+  background-color: #000;
+  border-color: #000 !important;
+  box-shadow: none;
+}
+.inputbox {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+.form-control {
+  border-radius: 0px !important;
+}
+
+.inputboxmessage {
+  width: 100%;
+  height: 165px;
+  overflow: hidden;
+}
+
+.f-link {
+  text-align: center;
+  background-color: #03a696;
+  font-size: 14px;
+  padding: 17px;
+  height: 50px;
+  color: #fff;
+}
+
+.icon {
+  float: left;
+  margin-right: 10px;
+}
