@@ -85,7 +85,11 @@ const About = () => {
                   </Col>
                 </Row>
               </div>
-              <button className="BtnView">Download CV</button>
+              <button className="BtnView">
+                <a href="https://docs.google.com/document/d/1_rT0k9YyJbaZzmNvuGwuMZfRnqfh4WCcn-ES4ifI3kE/export?format=pdf">
+                  Download CV
+                </a>
+              </button>
             </Col>
           </Row>
         </div>
