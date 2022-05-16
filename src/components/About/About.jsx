@@ -21,6 +21,7 @@ const About = () => {
                 <Image
                   className="d-block img-fluid mx-auto rounded-circle"
                   src={waving}
+                  alt='avatar'
                 />
                 <div className="text-center About-name">
                   <h6>Seymour James</h6>
