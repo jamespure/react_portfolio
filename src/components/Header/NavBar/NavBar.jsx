@@ -26,10 +26,10 @@ const NavBar = () => {
         className="justify-content-end nav-menu"
       >
         <Nav className="ms-auto font">
-          <Links link="/">Home</Links>
-          <Links link="/About">About us</Links>
-          <Links link="/Potfolio">Portfolio</Links>
-          <Links link="/Contact">Contact</Links>
+          <Links link="#Home">Home</Links>
+          <Links link="#About">About Me</Links>
+          <Links link="#Potfolio">Portfolio</Links>
+          <Links link="#Contact">Contact</Links>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

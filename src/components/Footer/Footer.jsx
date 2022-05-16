@@ -107,7 +107,7 @@ const Footer = () => {
           </Container>
         </div>
       </footer>
-      <div className="f-link">Copyright © 2021. All Rights Reserved.</div>
+      <div className="f-link">Copyright © 2022. All Rights Reserved.</div>
     </>
   );
 };

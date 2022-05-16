@@ -2,6 +2,15 @@
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
 body {
   background-color: #000 !important;
   overflow-x: hidden;
@@ -37,7 +46,7 @@ body {
   right: 0;
   top: 60px;
   margin: 0 auto;
-  border-bottom: 2px solid #00af73;
+  border-bottom: 2px solid #03a696;
 }
 /* Header */
 * {
@@ -85,10 +94,10 @@ body {
   text-decoration: none;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(0, 176, 116);
+  color: #03a696;
 }
 .navbar-light .navbar-nav .nav-link::before {
-  background-color: rgb(0, 176, 116);
+  background-color: #03a696;
   left: 0;
   right: 0;
   height: 0;
@@ -118,7 +127,7 @@ body {
     height: 15px;
   }
   .navbar-light .navbar-nav .nav-link::before {
-    background-color: rgb(0, 176, 116);
+    background-color: #03a696;
     left: 0;
     right: 451px;
     width: 1px;
@@ -217,7 +226,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #00af73;
+  background: #03a696;
   border-radius: 0;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -282,7 +291,7 @@ body {
   left: 0;
   top: 60px;
   margin: 0 auto;
-  border-bottom: 2px solid #00af73;
+  border-bottom: 2px solid #03a696;
 }
 
 .about-subtitle {
@@ -603,7 +612,7 @@ hr {
   right: 0px;
   top: 60px;
   margin: 0 auto;
-  border-bottom: 2px solid #00af73;
+  border-bottom: 2px solid #03a696;
 }
 
 .portfolio-img {
@@ -835,13 +844,13 @@ iframe {
   padding: 0px;
 }
 .send-btn {
-  border: 1px solid #00b074;
+  border: 1px solid #03a696;
   width: 199.99px;
   height: 50px;
   background-color: transparent;
   letter-spacing: 1px;
   margin-top: 40px;
-  color: #00b074;
+  color: #03a696;
   font-size: 14px;
   font-weight: 300;
   border-radius: 0;
@@ -850,7 +859,7 @@ iframe {
   vertical-align: middle;
 }
 .send-btn:hover {
-  background-color: #00af73;
+  background-color: #03a696;
   color: #fff;
 }
 
@@ -955,7 +964,7 @@ iframe {
 
 .f-link {
   text-align: center;
-  background-color: #00b074;
+  background-color: #03a696;
   font-size: 14px;
   padding: 17px;
   height: 50px;
