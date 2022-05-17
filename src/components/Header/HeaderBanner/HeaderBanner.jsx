@@ -16,7 +16,7 @@ const HeaderBanner = () => {
               <video
                 autoPlay
                 loop
-                preload
+                preload='true'
                 muted
                 id="video"
                 className=" img-fluid  mx-auto width: 100% "
