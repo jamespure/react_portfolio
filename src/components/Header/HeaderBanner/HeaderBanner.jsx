@@ -58,7 +58,7 @@ const HeaderBanner = () => {
                 data-aos-delay="300"
                 className="BtnView"
               >
-                <a href="#Contact">VIEW MORE</a>
+                <a href="#About">VIEW MORE</a>
               </button>
             </div>
           </div>
