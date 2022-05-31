@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { BsEnvelope, BsLinkedin, BsGithub } from "react-icons/bs";
+import axios from "axios";
 import "./footerStyles.css";
 
 const Footer = () => {
+  const [name, setName] = useState("");
+  const [subject, setSubject] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    axios.post("http://localhost:8080/api/v1/contact_me", {
+      name: name,
+      subject: subject,
+      phone: phone,
+      email: email,
+      message: message,
+    });
+    setName("");
+    setSubject("");
+    setPhone("");
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <>
       <footer className="footer headding" id="Contact">
@@ -42,7 +65,11 @@ const Footer = () => {
                 <Row>
                   <Col xl={12} md={12} lg={12} sm={12}>
                     <div>
-                      <form className="row g-3 needs-validation formContactus">
+                      <form
+                        onSubmit={handleSubmit}
+                        action="submit"
+                        className="row g-3 needs-validation formContactus"
+                      >
                         <div className="col-md-6  col-sm-6 col-6">
                           <input
                             type="text"
@@ -50,6 +77,8 @@ const Footer = () => {
                             id="validationCustom01"
                             placeholder="Name"
                             required
+                            onChange={(e) => setName(e.target.value)}
+                            value={name}
                           />
                         </div>
                         <div className="col-md-6  col-sm-6 col-6">
@@ -59,6 +88,8 @@ const Footer = () => {
                             id="validationCustom01"
                             placeholder="Phone"
                             required
+                            onChange={(e) => setPhone(e.target.value)}
+                            value={phone}
                           />
                         </div>
                         <div className="col-md-6 col-sm-6 col-6">
@@ -68,6 +99,8 @@ const Footer = () => {
                             id="validationCustom02"
                             placeholder="E-mail"
                             required
+                            onChange={(e) => setEmail(e.target.value)}
+                            value={email}
                           />
                         </div>
                         <div className="col-md-6 col-sm-6 col-6">
@@ -77,6 +110,8 @@ const Footer = () => {
                             id="validationCustom01"
                             placeholder="Subject"
                             required
+                            onChange={(e) => setSubject(e.target.value)}
+                            value={subject}
                           />
                         </div>
 
@@ -87,6 +122,8 @@ const Footer = () => {
                             id="validationCustom03"
                             placeholder="Meassage*"
                             required
+                            onChange={(e) => setMessage(e.target.value)}
+                            value={message}
                           />
                           <div className="invalid-feedback">
                             Please provide a Send Meassage.
@@ -94,7 +131,10 @@ const Footer = () => {
                         </div>
 
                         <div className="col-12 ">
-                          <button className="send-btn button float-start">
+                          <button
+                            type="submit"
+                            className="send-btn button float-start"
+                          >
                             Send Message
                           </button>
                         </div>
