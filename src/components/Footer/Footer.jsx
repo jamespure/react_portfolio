@@ -37,7 +37,7 @@ const Footer = () => {
                 <div className="f-left">
                   <div className="f-content">
                     <h1 className="F-contact">Contact Me</h1>
-                    <h1 className="f-text">Let's Discuss Your project</h1>
+                    <h1 className="f-text">Let's Discuss Your Project</h1>
                   </div>
                   <div className="">
                     <h6 className="f-icon">
