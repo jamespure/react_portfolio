@@ -67,7 +67,7 @@ const About = () => {
                     </div>
                     <div className="about-list">
                       <span className="perName1">Nationality : </span>
-                      <span className="perName2">Jamaican born, USA</span>
+                      <span className="perName2">Jamaican</span>
                     </div>
                   </Col>
                   <Col>
