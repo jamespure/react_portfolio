@@ -6,7 +6,7 @@ import Header from '../components/Header/Header';
 import HeaderBanner from '../components/Header/HeaderBanner/HeaderBanner'
 import MyPortfolio from '../components/Projects/Projects';
 import ScrollButton from '../components/ScrollButton/ScrollButton';
-import Tweetcard from '../components/card/Tweetcard';
+import Tweetcard from '../components/Tweetcard';
 
 const homePage = () => {
   return (
